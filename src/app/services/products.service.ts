@@ -14,6 +14,7 @@ export class ProductsService {
 
   private _products: Product[] = [];
 
+  //hola
 
   public get products(): Product[]{
     return this._products;
