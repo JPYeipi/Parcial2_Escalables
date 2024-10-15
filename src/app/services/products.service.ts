@@ -10,7 +10,7 @@ export class ProductsService {
   private http = inject(HttpClient);
   private apiUrl = "https://fakestoreapi.com/products";
 
-  public selectedProduct: number = 2;
+  public selectedProduct: number = 1;
 
   private _products: Product[] = [];
 

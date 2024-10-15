@@ -1,9 +1,6 @@
-
-
-  
-  <div class="container">
+<div class="container">
     <div class="card"  *ngIf="product">
-      <!-- <button [routerLink]="['/products']" type="button" class="btn btn-secondary btn-sm">Regresar</button> -->
+      <button [routerLink]="['/products']" type="button" class="btn btn-secondary btn-sm">Regresar</button>
       <img [src]="product.image" class="card-img-top">
       <div class="card-body">
         <h5 class="card-title">{{product.title}}</h5>
@@ -13,5 +10,5 @@
         <p class="card-text"><small>Categoria: {{product.category}}</small></p>
       </div>
     </div>
-  </div>
+</div>
 
