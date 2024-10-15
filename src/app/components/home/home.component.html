@@ -1,0 +1,15 @@
+
+        <div class="container d-flex">
+          <div class="card" style="width: 18rem;" *ngFor="let product of products" >
+            <img [src]="product.image" class="card-img-top" >
+            <div class="card-body">
+              <a class="card-title">{{product.title}} </a>
+              <p class="card-text">{{product.description}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">ID: {{product.id}}</li>
+              <li class="list-group-item">Precio: ${{product.price}}.00</li>
+              <li class="list-group-item">Categoria: {{product.category}}</li>
+            </ul>
+          </div>
+        </div>

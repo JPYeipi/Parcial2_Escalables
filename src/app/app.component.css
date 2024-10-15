@@ -1,0 +1,23 @@
+.container{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.sidenav{
+    width: 300px;
+}
+
+.sidenav a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.menu-item-selected{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+}

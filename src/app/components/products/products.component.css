@@ -1,0 +1,9 @@
+.container{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 30%;
+    margin: auto;
+}
